@@ -1,0 +1,10 @@
+{
+  "shared": "/path/to/RegionFusion/shared",
+  "python": "/path/to/regionfusion_env/bin/python",
+  "voc_data": "/path/to/shared/VOCdevkit/VOC2012",
+  "coco_data": "/path/to/shared/COCO2014",
+  "voc_checkpoint": "/path/to/checkpoints/regionfusion_voc.pth",
+  "coco_checkpoint": "/path/to/checkpoints/regionfusion_coco.pth",
+  "voc_teacher": "/path/to/teachers/voc/pseudo",
+  "coco_teacher": "/path/to/teachers/coco_full/pseudo"
+}

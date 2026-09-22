@@ -1,0 +1,13 @@
+{
+  "dataset": "COCO2014_WSSS",
+  "list_source": "Complete released segmentation-task train and validation lists",
+  "train_n": 82081,
+  "val_n": 40137,
+  "internal_val_n": 40137,
+  "num_classes": 81,
+  "split_hashes": {
+    "train.txt": "2985c4b482da49946f2e5dfb9a12f44bee154529cd601f63b1105942d763a8f9",
+    "val.txt": "6f65de2c151265166b98f2202c9822d6a81f607f2c39e39c01d279d9de690c1a",
+    "val_internal.txt": "6f65de2c151265166b98f2202c9822d6a81f607f2c39e39c01d279d9de690c1a"
+  }
+}

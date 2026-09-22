@@ -1,0 +1,545 @@
+{
+  "RegionFusion/attributes_text/descriptors_ms_coco_gpt4.0_cluster_a_photo_of4.json": {
+    "sha256": "9ed6a3770dad7edc091a2b7152ec279a4092aaf62460dd24613807a080393d09"
+  },
+  "RegionFusion/attributes_text/descriptors_pascal_voc_gpt4.0_cluster_a_photo_of4.json": {
+    "sha256": "c29a250898e81741e0bdb211b7457ed881488fad426b8a04bf7dd64dc15f3dbe"
+  },
+  "RegionFusion/attributes_text/transform_txt2json.py": {
+    "sha256": "2a7cf73d49fde11c76570c50e97325eafb588af39bfaef4178ad7a169d91e869"
+  },
+  "RegionFusion/clip/__init__.py": {
+    "sha256": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8"
+  },
+  "RegionFusion/clip/bpe_simple_vocab_16e6.txt.gz": {
+    "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+  },
+  "RegionFusion/clip/build_model.py": {
+    "sha256": "ee3aa36d99b9aab8f8ccda9c7bc5c571133245d26301f82639b4ea5f03767b10"
+  },
+  "RegionFusion/clip/clip.py": {
+    "sha256": "7e4b16cca7e4870e11edc81111bb5756aad38e8b42d3eff453f78576d0de731c"
+  },
+  "RegionFusion/clip/clip_model.py": {
+    "sha256": "d471cf80e274cbbf498ced439de29bd0757ed7b07cc6fbaf1b8f055102dc60a9"
+  },
+  "RegionFusion/clip/clip_surgery_model.py": {
+    "sha256": "20ab479f16c5c75b3aa240a3125dcd0488ba3f436c7bc07604e5a9e745967908"
+  },
+  "RegionFusion/clip/simple_tokenizer.py": {
+    "sha256": "d1b09f10ed3d1e2c343619cb98cbfacb92363dd8607526a43aa7fe2d60d15bad"
+  },
+  "RegionFusion/datasets/__init__.py": {
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "RegionFusion/datasets/clip_text.py": {
+    "sha256": "154e3c7298ce8699c24f887fe308c390c400e26eb3e2df8d86a43d60a43388d5"
+  },
+  "RegionFusion/datasets/coco/cls_labels_onehot.npy": {
+    "sha256": "f8069182f6683e519014c8c3524db8ff94071ac98bac980049092b4c0722470f"
+  },
+  "RegionFusion/datasets/coco/train.txt": {
+    "sha256": "2985c4b482da49946f2e5dfb9a12f44bee154529cd601f63b1105942d763a8f9"
+  },
+  "RegionFusion/datasets/coco/val.txt": {
+    "sha256": "6f65de2c151265166b98f2202c9822d6a81f607f2c39e39c01d279d9de690c1a"
+  },
+  "RegionFusion/datasets/coco/val_internal.txt": {
+    "sha256": "6f65de2c151265166b98f2202c9822d6a81f607f2c39e39c01d279d9de690c1a"
+  },
+  "RegionFusion/datasets/coco.py": {
+    "sha256": "37da36fd7ceac2696067388a4f0107b527cf61d2b9f834d5a7bf2cf4aff586f1"
+  },
+  "RegionFusion/datasets/coco_fixed.py": {
+    "sha256": "d558cd4cae11ccba5a73b17395e887100f462ec44fd292dd3b1a9083d0e2b424"
+  },
+  "RegionFusion/datasets/teacher_voc.py": {
+    "sha256": "2a90b9eef8d2be10b2ba96ba064ec4faa3e8c0cbc03adef46d989acdcf5a2b1d"
+  },
+  "RegionFusion/datasets/transforms.py": {
+    "sha256": "8a78eda1f7128d6713a9185aab3547d3240edec1cdc1568b754b0156b077bc7b"
+  },
+  "RegionFusion/datasets/voc/cls_labels_onehot.npy": {
+    "sha256": "f2dfdcfdcd5f0a734ef5d447466508a9078b5dc40f9711b74711ed74906b5354"
+  },
+  "RegionFusion/datasets/voc/test.txt": {
+    "sha256": "7d323bb3448fa174b9194953e01dfd168c9890adb30dd2491a66536edbeca0aa"
+  },
+  "RegionFusion/datasets/voc/train.txt": {
+    "sha256": "aa623bd2c8ce4443a8aaae51c524c0eb165e8e44caf6aa9e3ad33d7b75a3ef20"
+  },
+  "RegionFusion/datasets/voc/train_aug.txt": {
+    "sha256": "d1326bd532648d73bc4b1bd275434eba81930982dc7401a65a8cecb26c028e24"
+  },
+  "RegionFusion/datasets/voc/trainval.txt": {
+    "sha256": "f8dae64f9e08d8b06ef41286dcd4c516e7d98c8e6ec6d965bc6d29cb11a4de51"
+  },
+  "RegionFusion/datasets/voc/val.txt": {
+    "sha256": "cdc1326d12f69ce5153aa5da04a4d8783e146868d42d19f82f44e74b97ac907d"
+  },
+  "RegionFusion/datasets/voc.py": {
+    "sha256": "08a4436041eb3ca1a292ce45a2b0e8336d3034d2e9f745c3c18d330690afce0d"
+  },
+  "RegionFusion/engine/__init__.py": {
+    "sha256": "123681a63e6e7ee6e444444e8e8ed955e05d451fb32506e63b200514df12447a"
+  },
+  "RegionFusion/engine/dataloader_engine.py": {
+    "sha256": "bffe9136470ef67761344bb5c71cf1e86597b8c8b158db354b4903479f4f6647"
+  },
+  "RegionFusion/engine/network_engine.py": {
+    "sha256": "15d4659e6b8e745b9adab184a078db79192e0b2c9eab8e46ac71a873b3cc539b"
+  },
+  "RegionFusion/engine/optimizer_engine.py": {
+    "sha256": "c8bee3b466fe1d495b22064525b6689b81b8cc98296c97987b86b8a285e1ca3f"
+  },
+  "RegionFusion/engine/validatation_engine.py": {
+    "sha256": "ea7710a1ce9e70b0fbddc4a2bf96230ba117340ded387b0315a4773321b42509"
+  },
+  "RegionFusion/experiments/coco/common.py": {
+    "sha256": "249b126046165d667da4fa9c64d507e6b3d0aa69d5f3cba56f17829be6c350ca"
+  },
+  "RegionFusion/experiments/coco/evaluate_coco.py": {
+    "sha256": "b0e75b3b591496156e5d540e942c5b86736ee3330d52b4db67a1be96786abac0"
+  },
+  "RegionFusion/experiments/coco/train_coco.py": {
+    "sha256": "0d70afcd4b425ac97bba96e86832ea8353f706f210e3bb9663a1007658c6fab1"
+  },
+  "RegionFusion/experiments/voc/common.py": {
+    "sha256": "beb07550aab23584c2e18bdfb5c3c561b4c929bfc6cabccee643155d5b59af7a"
+  },
+  "RegionFusion/experiments/voc/evaluate_seg.py": {
+    "sha256": "2d0c23ab777e3938176656971ea07cdf4c1a802ec68af0a0495e3da9bba5fb4f"
+  },
+  "RegionFusion/experiments/voc/train_recorded.py": {
+    "sha256": "8d91965a5b79850c0cb9a6ed958a8b85da2a1dd38406c6d4fcbb3e0ed5be69e2"
+  },
+  "RegionFusion/model/backbone/__init__.py": {
+    "sha256": "2bdce1baccd1f2014bdd37ce949eb0974777149e833b27b1dd8cac21635259b9"
+  },
+  "RegionFusion/model/backbone/deit.py": {
+    "sha256": "eaed2abbde728c755d8a9dd34185501a7b25ac794aaefc07e4dba1e2dc29f5a7"
+  },
+  "RegionFusion/model/backbone/mat_vit.py": {
+    "sha256": "ef88fe5d5b03c04bd3fc572093795c720f424c20d467748c9ab08c7db7757f26"
+  },
+  "RegionFusion/model/backbone/vit.py": {
+    "sha256": "0ed77ff5ef11dfa39fc94a09e952ca97baef1b4e41cb03ee4904846b360fbc60"
+  },
+  "RegionFusion/model/decoder/conv_head.py": {
+    "sha256": "ddab594ac328b504c66f2d820d5ee47a6a4d5a5946147003f72cf83cf7ca5755"
+  },
+  "RegionFusion/model/decoder/MaskMultiheadAttention.py": {
+    "sha256": "1e57d65a4f866ab37e5a28e95942357de40bd0d1a60187d7e75b102048c12674"
+  },
+  "RegionFusion/model/decoder/mat_vit.py": {
+    "sha256": "e5394c1809c5895f96bdb79172ba3d19bccb6bf084f06b8fcf217cf59fe44543"
+  },
+  "RegionFusion/model/decoder/myAtt.py": {
+    "sha256": "039ed6c61dee7a73c49bdb3ef74ac12ba679a25d8202f58eb13a03d6b9585004"
+  },
+  "RegionFusion/model/decoder/TransDecoder.py": {
+    "sha256": "71c4688e35717bb20747374bbefdb83fbce58ba7e79ddbe26d97073a857ec3b6"
+  },
+  "RegionFusion/model/decoder/TransDecoder_seg.py": {
+    "sha256": "1eb169e77c6ff038b60c95eaea00281cf860e223ceb8129d84bdbb0d5b3024e3"
+  },
+  "RegionFusion/model/decoder/Transformer.py": {
+    "sha256": "991c9b3112e038d74eba0393ea509df218a9684446336ec3521fbe8163295d1c"
+  },
+  "RegionFusion/model/decoder/vit.py": {
+    "sha256": "ee30b32c83d3a5f7a98afaa1e158b3edfe84f34830d313d98c2b377be50b387f"
+  },
+  "RegionFusion/model/load_attr.py": {
+    "sha256": "da087bdc776e28fc5ec41047cad871c6efc390c3611333fadc85210fd67ee8d7"
+  },
+  "RegionFusion/model/losses.py": {
+    "sha256": "6941cb0ef119bf925ec22cf8e41150f3a7681250898ec5b472572cc2517c0d1f"
+  },
+  "RegionFusion/model/model_excel.py": {
+    "sha256": "2ec71147dfb2662e41bf3320d57fe092361398ebcb5b7e2f76fb4577d86fae76"
+  },
+  "RegionFusion/model/proj_head.py": {
+    "sha256": "410cfad475d0f4ebde974244a4175883881175b9cd4c517e589d6c4f67d80f1d"
+  },
+  "RegionFusion/model/radio_dense.py": {
+    "sha256": "077dfabf80ab8be66d90f0e032d20b34c84ee45baa56f7b0d9a66f6074b16e40"
+  },
+  "RegionFusion/model/segformer_head.py": {
+    "sha256": "9726383af86485c71936c98db78f81d30f8ae72680ce7cbfe059c542c9228271"
+  },
+  "RegionFusion/scripts/train_voc.py": {
+    "sha256": "c19f292b56358b6b1a122a935b6a99abede7501ee39b6db88d4f99286180bb1e"
+  },
+  "RegionFusion/utils/affutils.py": {
+    "sha256": "a25e6bdf6d6222c07dfe2c608d016c0a455541658cec545474d0acc2e1160c54"
+  },
+  "RegionFusion/utils/attrutils.py": {
+    "sha256": "40b3ca153dcb37c09314713d8c1a78d290fbe0490c4735534a173c82c85977df"
+  },
+  "RegionFusion/utils/camutils.py": {
+    "sha256": "1ce5d7967eaef838095ee16e74aafa00fb489780c5c4842c223522db9473edf3"
+  },
+  "RegionFusion/utils/dcrf.py": {
+    "sha256": "40f5ef16d0a9afc5f095224b1b7447b96498e553cc3e8711e55a6ac9bb3acd66"
+  },
+  "RegionFusion/utils/evaluate.py": {
+    "sha256": "213a6237e131e3c2fe53760f223cdcdac6439ccffd574999e1f3bc584f530db6"
+  },
+  "RegionFusion/utils/imutils.py": {
+    "sha256": "8204169050a6b2494a3345c7e0386bcaac80852c8727c411c8b05c9809ba0224"
+  },
+  "RegionFusion/utils/optimizer.py": {
+    "sha256": "402b5ec69e08beedb0a9bb05f2b72ca2d2cd2435a3e190f3472bd704ade1ac26"
+  },
+  "RegionFusion/utils/PAR.py": {
+    "sha256": "7b6c4a843c64b48d6b76fda8c66488b3ca4bd62b8217e149c4fab82ed71bf54c"
+  },
+  "RegionFusion/utils/pyutils.py": {
+    "sha256": "2cc9d12a8ac8f38052d6f896ee186e82ec3028bf8936d6199975cc07f7568f24"
+  },
+  "RegionFusion/utils/tbutils.py": {
+    "sha256": "e07397df879aaea606f146fb8e81f81afb10393856404181fd8187131ee05255"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_attn.py": {
+    "sha256": "baa112b58158d75077e9bba8baba51b2c75f6a6deed2d8046aa5e5f2d5cb669a"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_base.py": {
+    "sha256": "f9d285cc76e70f977f9c78e748f610765f0bd068a13f86d804c07c765cece577"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_generic.py": {
+    "sha256": "3d1b5a015ff3754a9eb64cd56b4d04cae01e537a1ffa606adaf904c55fff07a1"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_mlp.py": {
+    "sha256": "e75a9ed1f7f58c749dec5a510d699f36f32fdb7f3b61cd8a7e3ccd5afd2c9b77"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_module_factory.py": {
+    "sha256": "2beac17dc5824c7d9f925dc782cdd4b49bd15cf206bf1cbaa9108a8966e33316"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/adaptor_registry.py": {
+    "sha256": "16963e07de300e5f3cbd5e343aed111d04e4e55a50e07f50ccc2ab930883ea1e"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/cls_token.py": {
+    "sha256": "64ee35f128380c3bb9bc1a913e98ac328220be88964f2092686c637ef866fc79"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/common.py": {
+    "sha256": "6cc79e1f7b61f4917602d2efc9e0a833fa74d60563f6aac74e4625de23723bab"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/config.json": {
+    "sha256": "6e49e911ff6e980125c208b10ed4b51bb4a92061862cbb8947473f1b33f88fd4"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/dinov2_arch.py": {
+    "sha256": "5433d08522c28f46a69e710da1a86fc1d76fc03562dbb9b2b49baf5db21195d3"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/dual_hybrid_vit.py": {
+    "sha256": "86853ae2ed28c902529cd9b78201350e7dba1cf54ea9e57578241ecc0d88d867"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/enable_cpe_support.py": {
+    "sha256": "3c1e3df656960f5c83b38ba5f632fc5b335edf1d6de67731396a865aaa5ce1ed"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/enable_damp.py": {
+    "sha256": "7e2a0b6f8934ac6e4a4768e5ca84cb4ff09ba3726a470f1cf046bd5169b2e334"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/enable_spectral_reparam.py": {
+    "sha256": "b8e703400604ee5f9cdfac0de9b857b7f5126aad8bba03604b04f52f7641d6cb"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/eradio_model.py": {
+    "sha256": "bf76c60b991813eef45c76246cd7dcee3fefbf39bde3d2b6ac8576067012d05f"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/extra_models.py": {
+    "sha256": "a938b96715266d2f65325e56d0d8e42465d23e944e905d2820023472785c55a9"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/extra_timm_models.py": {
+    "sha256": "d7364d5abf5b617782366948f0e593d7a2df275b076094afa1ebc5276a9f7102"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/feature_normalizer.py": {
+    "sha256": "a74401f5220c2e5960d39addce9ba40f481efca9ab44bb9d96535ed23e1ef62b"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/forward_intermediates.py": {
+    "sha256": "eb5a562d11edc655876eeb95bc1c3b4c7484b963dae41a3f76f7acd2a6906b9e"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/hf_model.py": {
+    "sha256": "d28c0a0238ca8854a9af5a9f003761332bfc9182601b3b7466d9242be91ee96f"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/input_conditioner.py": {
+    "sha256": "72062d3b71877e1469e069cf090e5f35d6ad7abaeb451e56502f7f32dc6c1075"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/open_clip_adaptor.py": {
+    "sha256": "c2eb9166de48f5eb5f90f8a750e8ebe67da93698e794dc0bbdab5f013bab8e66"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/preprocessor_config.json": {
+    "sha256": "a2c41877fc9568086b5c37f5605a8423d086c6c3adae2b6fcf925cf1db9dcd70"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/radio_model.py": {
+    "sha256": "2be659f5cd5b9db9c49db70387b65253c74bc16b3eb86e976f0f693271d4b183"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/siglip2_adaptor.py": {
+    "sha256": "1f40f7d77beefd69ad86aac61b12c82ed915b4012e6bea1628fc8abe80782851"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/utils.py": {
+    "sha256": "3b83163ce2650ef04973538dd79716ab015d24344ea25d52cfb0c37b093ba4ba"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/vit_patch_generator.py": {
+    "sha256": "092e9a0b8eca4fee162484ef3ef77b399f686e5e0ffc7be85fb2d69bc2f9ebd9"
+  },
+  "ModuSeg_runtime/C_RADIOv4_SO400M/vitdet.py": {
+    "sha256": "5b83b4c7b90b797d854a6da2fd4093ce9210a52533d3f7ba6bf505793b6c68c3"
+  },
+  "ModuSeg_runtime/LICENSE": {
+    "sha256": "2cf40ee7ab23ab977833807b6cff4955b1cadd806bc513beb7868b202d1df0ae"
+  },
+  "ModuSeg_runtime/open_clip/__init__.py": {
+    "sha256": "b9b6d1014ab74b8a135acd07b7ee7bf7f5844b6b2d75a7407c4dcd2b60bce954"
+  },
+  "ModuSeg_runtime/open_clip/big_vision.py": {
+    "sha256": "d2e6064e6d6851658fac7479d73d3e8e8885959de8addd016191a9e0753ee314"
+  },
+  "ModuSeg_runtime/open_clip/bpe_simple_vocab_16e6.txt.gz": {
+    "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+  },
+  "ModuSeg_runtime/open_clip/coca_model.py": {
+    "sha256": "b040e3ecdd797f038e8885ae2987a455ddce48e26f0b234d9785941394872b16"
+  },
+  "ModuSeg_runtime/open_clip/constants.py": {
+    "sha256": "eaf08275e171187683b129da702f2f586ab3a3d876884aa345d9136d42e49c03"
+  },
+  "ModuSeg_runtime/open_clip/factory.py": {
+    "sha256": "c41c8fd012b5bd395ab87a4212ae7aae5ad491be72baf9da4c86a651758002dd"
+  },
+  "ModuSeg_runtime/open_clip/hf_configs.py": {
+    "sha256": "1f29974215001c88b68c9ed77fa91eab3129347c8245a5c0516c803c630dd807"
+  },
+  "ModuSeg_runtime/open_clip/hf_model.py": {
+    "sha256": "4d86bc69e96a7c009d9ac57420897e71265b84e01df43185a091b08efcaf72c7"
+  },
+  "ModuSeg_runtime/open_clip/loss.py": {
+    "sha256": "c91b9e5c5c24119ac274c2bb01163662f9fde6867616095de94f2e2488e06d9c"
+  },
+  "ModuSeg_runtime/open_clip/model.py": {
+    "sha256": "310868843d791991aedd0d3ba3398a3850cf5c08a32538a30188cc31cd8b1b75"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/coca_base.json": {
+    "sha256": "dca55b97ffc354c8276c2cf0007868a7e9bdd5061c4cb66e9cc6500aa715cf99"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/coca_roberta-ViT-B-32.json": {
+    "sha256": "f1a2bf83f300285c7428b3aa8f5dcffa35bffb6b28291054e131097adcdddfa6"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/coca_ViT-B-32.json": {
+    "sha256": "ae16a372d7b52ba54d91e1db505d2645c38081517d26f84d8943c5370832c7dc"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/coca_ViT-L-14.json": {
+    "sha256": "709768239a6598fe13f19f1ccffd152d503c4c51847ea211f4aefec2158a91f8"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA01-g-14-plus.json": {
+    "sha256": "c4ce6eae4a4f829b954329b40b27178fbe31f35a58f1805bd814da5eccb4f72c"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA01-g-14.json": {
+    "sha256": "d18d15f474354d69e08145c3359803de8529ea5b062e5c3503918947d643f827"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA02-B-16.json": {
+    "sha256": "41375f5900f72bbbb4e3990e212deeffbaad757146d6b1da3e2a67ed5327f51d"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA02-E-14-plus.json": {
+    "sha256": "22394c517d1deb4769f90f80b60424d02cc6a009effdcac79a2ee774e101e37c"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA02-E-14.json": {
+    "sha256": "d0331bd796434dbc735a9ca0788aa7096d9c3666c3fb97d59dd4b1a17628ab0b"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA02-L-14-336.json": {
+    "sha256": "8a6e16d48eb86060bfeb75ef068617bb7be522831fb93cd1b60a1ab120e91220"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/EVA02-L-14.json": {
+    "sha256": "8c6b3e000f197737378c6d1c27294893c55ab47079e8306c31d8a3fa3d098313"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/RN50x16.json": {
+    "sha256": "0d394e486b6b6a26e748ec97e9c5393dd961b06b5b3e7b61bae71fc3b4405a10"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-plus-240.json": {
+    "sha256": "cd09b2aca88dfd5ccaa5d2109606159b915fbc78fb03398cb32dd1ed3e7186d7"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-plus.json": {
+    "sha256": "66ecfdccb925b1b3120af4ab5506657501e0d80a49d9665a4ee956fdf9b93bb5"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-quickgelu.json": {
+    "sha256": "fce8771c6f6888d62ea88565eb559f0f52ff75929369dc616a4f60ce2a5489f5"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-SigLIP-256.json": {
+    "sha256": "3dd4532bb9fbe999c412a982f74c2d84b9514d3d657d3a6f8afa22527d0dbd46"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-SigLIP-384.json": {
+    "sha256": "4d733db44948e55a7baa78aebc3ab516a5a12673cd6002738383bdbfe3b70fc3"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-SigLIP-512.json": {
+    "sha256": "6c385b437cf937c07cefd424e271a4a0b4c1e315036f63845790bd56dc073925"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-SigLIP-i18n-256.json": {
+    "sha256": "bacc304ea3914684df8482fb8d33941878849756354ed4225efb38b01e82b528"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16-SigLIP.json": {
+    "sha256": "69c03e977b2b64619e1067fd6be5cf945890d6b07ef6fdd06a80a4cb0c5c39a3"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-16.json": {
+    "sha256": "b08bd3693df386305f28adaf8038e447f68ee8192e567ac77e7c29510fe012b3"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-32-256.json": {
+    "sha256": "16a91bb7023b8c720f8d2cab8b8245cb4d91d4d149b6c4b732a4c0b0bd3e0e52"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-32-plus-256.json": {
+    "sha256": "fb563ef282f802400e4ee5db678e0d827f44a7e9f07a2b4bdce9238414ebd869"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-32-quickgelu.json": {
+    "sha256": "c8abc244b98197c538a0ba71c14e9bae08ff4a648f36e03211ff9604011ece6e"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-B-32.json": {
+    "sha256": "523df6db8eaf5d08a4e48321e926135364a473267e04a2fd207fa87b22ac6104"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-bigG-14-CLIPA-336.json": {
+    "sha256": "6a4e785c115d16d6f8bdca83406f26aa22bfae3cb752d4c8fc5b7eb27392ecd6"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-bigG-14-CLIPA.json": {
+    "sha256": "2b268ddfff9057b14f5b44913fdf6a63569f7abe6c0ca967af6c3e4f7e041add"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-bigG-14.json": {
+    "sha256": "45adc9a208036987bf8a85bd7c07f612d6f764e067733b3b57847e08d34cd4ac"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-e-14.json": {
+    "sha256": "0ad075ae0a24fe9940910d26d129ee94d4784f939d06f32e4a5e844e268e1b33"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-g-14.json": {
+    "sha256": "0c8bda8adddb2c8285a7ccbeb075d59ebb63c91b8404799d67635d83b753d3e2"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-14-378-quickgelu.json": {
+    "sha256": "2c15a71a4450fac30c325bc13f30cbfa3c346360078bbf58f39359008d4152de"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-14-CLIPA-336.json": {
+    "sha256": "f06e1bbe3402b60f18929987f60ff996ef292fd9504db3f3bee6613415162129"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-14-CLIPA.json": {
+    "sha256": "06dfcd897dd28bbe4130953828d5ea9a207b541fb18d2c1053d045726709199b"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-14-quickgelu.json": {
+    "sha256": "a1d22b4f5ca544fe6f2068418c202b4d6d1c1b339320c8f400af59a06f79c280"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-14.json": {
+    "sha256": "29b8aff54c7e9da590d4ba07f17608cbeb383556b176e106adb5242f916672ab"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-H-16.json": {
+    "sha256": "3926e053fa0703c3f51c285a095129c18bc346f6789ae7b83a6726789c2447d6"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14-280.json": {
+    "sha256": "90da5cd5652f91c4f177ac9a2ddf2558629da67602c692f1fa58c1ea094e5c90"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14-336.json": {
+    "sha256": "5775652da532da4cac6b20e854940f94cf0ff5f554afe7f8174ea9c7d4e8f367"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14-CLIPA-336.json": {
+    "sha256": "24a73cb9adfe9cfd3d2253bee6e9f906be765d368e93014ebc838a4f5ad9b540"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14-CLIPA.json": {
+    "sha256": "6f0036ccb769167a2f66a63db405a4ab511e3aa10caa05a4a7fac2ed0ba28676"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14-quickgelu.json": {
+    "sha256": "76ae25df4d74a598593fdc1fa43002c21f8f2cff7f35c3af1ea881942342f337"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-14.json": {
+    "sha256": "0c26e8203c2ee67fc024a98c23d662845347f859899b56912fe6ba55c8aaddaa"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-16-320.json": {
+    "sha256": "f883b3cdc83616860c31fbad6f97ffd73c745dde8a91aed9cd6021159fe690ee"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-16-SigLIP-256.json": {
+    "sha256": "87e903acbbeaaccd701997b7bc95756e372208377a9461c63e8df2d01f5996f9"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-16-SigLIP-384.json": {
+    "sha256": "a7e2736207c470ffd48479f1781004f4facd6f40adeef6a73151040797851ec7"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-L-16.json": {
+    "sha256": "e290de2c626b3ac8c66f0f7a655132b363163c3019a87c0d2b1c21851cb720cf"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-M-16-alt.json": {
+    "sha256": "402a24e71daa62f8a749ac665258b099b0b07e6a8032ca920ddaef27bedc25cc"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-M-16.json": {
+    "sha256": "f9fb16d15325c4a152b705e3aba45bd1b71b5b88058e8e01bbe9bca7462335ef"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-M-32-alt.json": {
+    "sha256": "15f4203a008b78e238613019194c96e0788f046e5d5976be6a46d124a592ca6c"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-M-32.json": {
+    "sha256": "1e7ac5c9381b133e6f8668a1275f8aa4b4f434a7017649c09696c2c9d2cd16e9"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-S-16-alt.json": {
+    "sha256": "c2c590603c2d3a90eb4e5d1bec9366410cea9924d10d96738362f3e579bbb6b4"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-S-16.json": {
+    "sha256": "074ceb0accba7c577acfd2f1fdb7a5b14b085b34fdd7516c1c685faab308462d"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-S-32-alt.json": {
+    "sha256": "fa22574fb8cbee87d2ad287688b73efb7fe37332400a6d3fe9f6728528b8b801"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-S-32.json": {
+    "sha256": "9365b6282b585a47c02e3fb9ae755c559f4236c9995bcdc4f783a4d73bcae735"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-SO400M-14-SigLIP-384.json": {
+    "sha256": "822fa472e5801e9261c78262ce166c41b22de10b19e4317679c995692a519ad9"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/ViT-SO400M-14-SigLIP.json": {
+    "sha256": "dde4ce7674ed2ac57d5adea25c9bb169203efecd6341807b87ca470729ee6c43"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/vit_medium_patch16_gap_256.json": {
+    "sha256": "990b7ebf0baed63629429f54864bae2ec66d6242635949b3e7c1078ecd6bc28d"
+  },
+  "ModuSeg_runtime/open_clip/model_configs/vit_relpos_medium_patch16_cls_224.json": {
+    "sha256": "0a9a49ace17b378c8ac7d7d7b8b6bd4600e8097d0c76bd74800ed33984d0d448"
+  },
+  "ModuSeg_runtime/open_clip/modified_resnet.py": {
+    "sha256": "897534d25611fb83520f749cb19e000b7e19bc6d1946072c03e28dc37057d136"
+  },
+  "ModuSeg_runtime/open_clip/openai.py": {
+    "sha256": "a85761641ab845dd7f676b441140e9fe846be38f30e4bb56b48354b25840c260"
+  },
+  "ModuSeg_runtime/open_clip/pos_embed.py": {
+    "sha256": "153ba2e3de1e50ca1d3b5ffe20309ac8ec085a682c9d1b3f802844b2cc418cbf"
+  },
+  "ModuSeg_runtime/open_clip/pretrained.py": {
+    "sha256": "39643dcb14b79b9912af6af70c6a2db35b726e775632bc7db65e5972ace3472a"
+  },
+  "ModuSeg_runtime/open_clip/push_to_hf_hub.py": {
+    "sha256": "efb1ce8ad0d00a9dd6d9b1889ebeeb648618d7b4dc7e06b9b488d658fb0982a6"
+  },
+  "ModuSeg_runtime/open_clip/timm_model.py": {
+    "sha256": "83ded7394e679e82a59c2f85a7e13fbe6aa1a2c11d97a05d204364fc975f92f1"
+  },
+  "ModuSeg_runtime/open_clip/tokenizer.py": {
+    "sha256": "2cd9ffc2a6b3871b5fda009b53b45d973dbad5fd4ffd5f2695e36273a683571c"
+  },
+  "ModuSeg_runtime/open_clip/transform.py": {
+    "sha256": "11c80cb26058a9e6b6af0169d9655ba3a6a704420082f4d789fd3371b4a75eb8"
+  },
+  "ModuSeg_runtime/open_clip/transformer.py": {
+    "sha256": "b7297acd4b0ec093f4d85f084f06fb84967aa3efcb3899916ff742c7acc1b6cd"
+  },
+  "ModuSeg_runtime/open_clip/utils.py": {
+    "sha256": "182896e8c8b4d34c8fbf400e8e6b17383d527b6c7f6e0e90f26b29a3fc360747"
+  },
+  "ModuSeg_runtime/open_clip/version.py": {
+    "sha256": "b084f4d3ab8c362b7843d785c86860a7f6f068cd92e7bddc9e7a6ac148d3c15b"
+  },
+  "ModuSeg_runtime/open_clip/zero_shot_classifier.py": {
+    "sha256": "40508808ac10d2325fa82e9039cf80cc255e1a755535597f77b60bc478455811"
+  },
+  "ModuSeg_runtime/open_clip/zero_shot_metadata.py": {
+    "sha256": "ad01f7fc12b3228ff03c56e33f01d4a1f0bbef1818e49906271cb6a7a01d0748"
+  },
+  "package_tools/configure_coco.py": {
+    "sha256": "40d3ad92c1124604a852f5dc47229586162e96a673af54d934b542dc6ea1dd39"
+  },
+  "package_tools/prepare.py": {
+    "sha256": "8f4d102faaa965bfca8319d499cc5a3f811d2807adf2734b80b3b1a5a6975914"
+  },
+  "configs/assets.example.json": {
+    "sha256": "673ce8b740fa99239cc95a469e8f3dd2964579aab853f92f0fc8110a54e9074e"
+  },
+  "configs/coco_full/manifest.json": {
+    "sha256": "8bfe8ab49409c78781cd6e9654e7b3d37954dcf416dea5551ce9ab43481c5325"
+  }
+}
